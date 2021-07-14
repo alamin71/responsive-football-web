@@ -1,0 +1,14 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+nav{
+    display: flex;
+   justify-content: space-between;
+   border: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 36px;
+    
+}

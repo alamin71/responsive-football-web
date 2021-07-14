@@ -26,7 +26,6 @@ justify-content: space-between;
 nav{
     display: flex;
    justify-content: space-between;
-   
    border: 50px;
 }
 nav a{
@@ -72,6 +71,7 @@ web-title a{
     height: 438px;  
 }
 /* player album styles */
+
 .football-team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -140,3 +140,79 @@ web-title a{
     font-size: 18px;
     font-weight: 400px;
 }
+/* media-Quary-responsive-styles */
+
+/* Small devices (portrait tablets and large phones, 688px max) */
+@media only screen and (max-width: 688px) {
+    body{
+        background-color: cadetblue;
+    }
+nav{
+     flex-direction: column;
+     margin: 0;
+
+}
+.web-info{
+    display: flex;
+    }
+
+.container{
+    background-color: cadetblue;  
+}
+.banner{
+    
+}
+.football-team{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  grid-row-gap:30px ;
+  grid-column-gap:30px ;
+  padding: 42px 156px;
+}
+.head-line-article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:66px;
+    padding: 42px 156px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+/* Medium devices (landscape tablets, 768px max) */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: rgb(211, 103, 145);
+    }
+nav{
+    flex-direction: column;
+
+}
+.web-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    }
+
+.container{
+    background-color: rgb(211, 103, 145;  
+}.football-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  grid-row-gap:30px ;
+  grid-column-gap:30px ;
+  padding: 42px 156px;
+}
+.head-line-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap:66px;
+    padding: 42px 156px;
+}
+}
+
+
+

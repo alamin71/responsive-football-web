@@ -126,6 +126,27 @@ web-title a{
     font-size: 16px;
     font-weight: 28px;
 }
+/* video-gallery-styles */
+.video-container{
+    background-color:rgba(219, 188, 188, 0.15);
+}
+.video-gallery{
+    padding: 30px 156px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
+.video-title{
+    text-decoration:underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.one{
+    padding-right: 6.5px; 
+}
 /* footer-section */   
 /* footer-styles */
 .footer-section{

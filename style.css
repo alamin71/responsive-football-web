@@ -71,7 +71,9 @@ web-title a{
    transition: width 1s linear;
    width: 600px;
 }
-/* player album styles */
+/*-----------------
+player album styles 
+------------------*/
 
 .football-team{
     display: grid;
@@ -102,7 +104,9 @@ web-title a{
     font-size: 16px;
    align-items: center;
 }
-/* head-line-article styles */
+/* --------------------
+head-line-article styles 
+-----------------------*/
 .head-line-article{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -126,7 +130,9 @@ web-title a{
     font-size: 16px;
     font-weight: 28px;
 }
-/* video-gallery-styles */
+/* ----------------
+video-gallery-styles
+---------------- */
 .video-container{
     background-color:rgba(219, 188, 188, 0.15);
 }
